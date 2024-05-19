@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -26,7 +26,12 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2E2F42;
+color: #4d5ae5;
+font-family: Raleway, sans-serif;
+}
+
+.colored-part-logo {
+    color: #2e2f42 ;
 }
 
 .colored {
@@ -47,7 +52,13 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .contacts {
+    font-style: normal;
 }
 
 .contacts-menu {
@@ -76,6 +87,7 @@ color: #FFFFFF;
 }
 
 .hero-buttom {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 150%;
@@ -85,7 +97,14 @@ cursor: pointer;
 background-color: #4D5AE5;
 }
 
-.activity {
+.hero-buttom:hover,
+.hero-buttom:focus {
+    background-color: #404BBF;
+}
+
+.activity
+
+.activity-tittle {
     font-weight: 700;
 font-size: 36px;
 line-height: 111%;
@@ -100,7 +119,7 @@ color: #2E2F42;
 .activity-item {
 }
 
-.activity-tittle {
+.subtittle{
     font-weight: 500;
 font-size: 20px;
 line-height: 120%;
@@ -108,15 +127,17 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.activity-text {
-    font-weight: 400;
+.text {
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
 }
-
 .ourteam {
+    text-transform: capitalize;
+}
+
+.ourteam-tittle {
     font-weight: 700;
 font-size: 36px;
 line-height: 111%;
@@ -125,30 +146,18 @@ text-align: center;
 color: #2E2F42;
 }
 
-.oerteam-list {
+.ourteam-list {
+    background-color: #FFFFFF;
 }
 
 .ourteam-item {
 }
 
-.ourteam-subtittle {
-    font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2E2F42;
-}
-
-.oerteam-text {
-    font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-text-align: center;
-color: #434455;
-}
-
 .ourteam-img {
+}
+
+.ourportfolio {
+    color: #F4F4FD ;
 }
 
 .ourportfolio-tittle {
@@ -157,7 +166,8 @@ font-size: 36px;
 line-height: 111%;
 letter-spacing: 0.02em;
 text-align: center;
-color: #2E2F42;
+color: #2E2F42; 
+text-transform: capitalize;
 }
 
 .ourportfolio-lis {
@@ -166,20 +176,9 @@ color: #2E2F42;
 .ourportfolio-item {
 }
 
-.ourportfolio-subtittle {
-    font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
 
-.ourportfolio-tex {
-    font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #434455;
-}
+
+
 
 .ourportfolio-img {
 }
@@ -194,7 +193,8 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #F4F4FD;
+color: #4d5ae5;
+font-family: Raleway, sans-serif;
 }
 
 .footer-information {
@@ -202,4 +202,8 @@ color: #F4F4FD;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+}
+
+.colored-part {
+   color: #f4f4fd; 
 }
