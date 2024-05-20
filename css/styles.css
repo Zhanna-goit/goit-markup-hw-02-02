@@ -30,12 +30,9 @@ color: #4d5ae5;
 font-family: Raleway, sans-serif;
 }
 
-.colored-part-logo {
-    color: #2e2f42 ;
-}
 
 .colored {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 
 .header-menu {
@@ -71,6 +68,11 @@ color: #2E2F42;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf ;
 }
 
 .hero {
@@ -120,7 +122,7 @@ color: #2E2F42;
 }
 
 .subtittle{
-    font-weight: 500;
+font-weight: 500;
 font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
@@ -135,6 +137,7 @@ color: #434455;
 }
 .ourteam {
     text-transform: capitalize;
+    background-color: #F4F4FD;
 }
 
 .ourteam-tittle {
@@ -147,10 +150,10 @@ color: #2E2F42;
 }
 
 .ourteam-list {
-    background-color: #FFFFFF;
 }
 
 .ourteam-item {
+    background-color: #FFFFFF;
 }
 
 .ourteam-img {
@@ -170,13 +173,11 @@ color: #2E2F42;
 text-transform: capitalize;
 }
 
-.ourportfolio-lis {
+.ourportfolio-list {
 }
 
 .ourportfolio-item {
 }
-
-
 
 
 
